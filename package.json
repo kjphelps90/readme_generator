@@ -1,23 +1,14 @@
 {
-  "name": "readme_generator",
+  "name": "static-site",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/kjphelps90/readme_generator.git"
-  },
-  "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/kjphelps90/readme_generator/issues"
-  },
-  "homepage": "https://github.com/kjphelps90/readme_generator#readme",
   "dependencies": {
-    "inquirer": "^8.1.2"
+    "inquirer": "^6.3.1"
   }
 }
