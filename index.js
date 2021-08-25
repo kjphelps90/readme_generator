@@ -51,9 +51,10 @@ const questions = inquirer.prompt([
         name: "tests",
         message: "What command should be run to run tests?"
     }
-
-
-]);
+])
+.then((response) => {
+    // const readmeOutput = generateReadme(response);
+    console.log(response); });
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {}
