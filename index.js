@@ -53,14 +53,51 @@ const questions = inquirer.prompt([
     }
 ])
 .then((response) => {
-    // const readmeOutput = generateReadme(response);
-    console.log(response); });
+    writeToFile("README.md", response);
+});
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+    `# ${data.title}
+
+    <!-- vscode-markdown-toc -->
+    * 1. [Description](#Description)
+    * 2. [Installation](#Installation)
+    * 3. [Usage](#Usage)
+    * 4. [License](#License)
+    * 5. [Contributing](#Contributing)
+    * 6. [Tests](#Tests)
+    * 7. [Questions](#Questions)
+    
+    <!-- vscode-markdown-toc-config
+        numbering=true
+        autoSave=true
+        /vscode-markdown-toc-config -->
+    <!-- /vscode-markdown-toc -->
+    
+    
+    ##  1. <a name='Description'></a>Description
+            ${data.description}    
+    ##  2. <a name='Installation'></a>Installation
+            ${data.installation} 
+    ##  3. <a name='Usage'></a>Usage
+            ${data.usage}
+    ##  4. <a name='License'></a>License
+            ${data.license}
+    ##  5. <a name='Contributing'></a>Contributing
+            ${data.contributing}
+    ##  6. <a name='Tests'></a>Tests
+            ${data.tests}
+    ##  7. <a name='Questions'></a>Questions
+            ${data.github}
+            ${data.email}
+    `
+}
 
 // TODO: Create a function to initialize app
-function init() {}
+function init() {
+
+}
 
 // Function call to initialize app
 init();
