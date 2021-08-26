@@ -1,14 +1,24 @@
 {
-  "name": "static-site",
+  "name": "readme_generator",
   "version": "1.0.0",
-  "description": "",
+  "description": "<!-- vscode-markdown-toc -->\r * 1. [Description](#Description)\r * 2. [Installation](#Installation)\r * 3. [Usage](#Usage)\r * 4. [License](#License)\r * 5. [Contributing](#Contributing)\r * 6. [Tests](#Tests)\r * 7. [Questions](#Questions)",
   "main": "index.js",
+  "dependencies": {
+    "inquirer": "^8.1.2"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kjphelps90/readme_generator.git"
+  },
+  "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "inquirer": "^6.3.1"
-  }
+  "bugs": {
+    "url": "https://github.com/kjphelps90/readme_generator/issues"
+  },
+  "homepage": "https://github.com/kjphelps90/readme_generator#readme"
 }
