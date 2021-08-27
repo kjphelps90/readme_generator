@@ -34,7 +34,7 @@ const promtQuestions = () => {
             type: "list",
             name: "license",
             message: "What type of license does your program require?",
-            choices: ["MIT", "Apache", "BSD", "GPL", "Mozilla Public License"]
+            choices: ["MIT", "Apache", "BSD", "GPL", "Mozilla Public"]
         },
         {
             type: "input",
@@ -66,36 +66,36 @@ writeToFile = (data) =>
 5. [Contributing](#Contributing)
 6. [Tests](#Tests)
 7. [Questions](#Questions)
-    
+\n
 ## <a id='Description'></a>Description
 ${data.description}
-
+\n
 ## <a id='Installation'></a>Installation
-${data.installation}
-
+* ${data.installation}
+\n
 ## <a id='Usage'></a>Usage
 ${data.usage}
-
+\n
 ## <a id='License'></a>License
-${data.license}
-
+This program is covered under a ${data.license} license.
+\n
 ## <a id='Contributing'></a>Contributing
 ${data.contributing}
-
+\n
 ## <a id='Tests'></a>Tests
-${data.tests}
-
+* ${data.tests}
+\n
 ## <a id='Questions'></a>Questions
-${data.github}
-${data.email}`;
+If you have any questions please check out my GitHub page: [www.github.com/${data.username}](https://www.github.com/${data.username})
+\n\nIf you have any other questions please reach out to me at: [${data.email}](mailto:${data.email})`;
 
 // TODO: Create a function to initialize app
 const init = () => {
     promtQuestions()
         .then((response) => {
-            console.log(response);
+            // console.log(response);
             let readmeContent = writeToFile(response);
-            console.log(readmeContent);
+            // console.log(readmeContent);
 
             fs.writeFile("README.md", readmeContent, (err) =>
                 err ? console.log(err) : console.log("created README file!")
