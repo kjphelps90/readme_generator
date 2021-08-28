@@ -1,4 +1,4 @@
-# Sample Project <a href=https://opensource.org/licenses/Apache-2.0>![ScreenShot](https://img.shields.io/badge/License-Apache-2.0-green.svg)</a>
+# Sample README <a href=https://opensource.org/licenses/MIT>![ScreenShot](https://img.shields.io/badge/License-MIT-green.svg)</a>
 
   # Table of Contents
   1. [Description](#Description)
@@ -11,25 +11,25 @@
   
 
   ## <a id='Description'></a>Description
-  This is a test
+  This is a testLorem ipsum dolor sit amet, consectetur adipiscing elit. Ut velit turpis, commodo dignissim ipsum id, gravida placerat metus. Aenean tincidunt, neque vitae rhoncus rhoncus, tellus tortor ornare sapien, eget accumsan augue nibh eget neque. Morbi mollis ut ante a volutpat.
   
 
   ## <a id='Installation'></a>Installation
-  npm install inquirer
+  npm i inquirer
   
 
   ## <a id='Usage'></a>Usage
-  No
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut velit turpis, commodo dignissim ipsum id, gravida placerat metus. Aenean tincidunt, neque vitae rhoncus rhoncus, tellus tortor ornare sapien, eget accumsan augue nibh eget neque. Morbi mollis ut ante a volutpat.
   
 
   ## <a id='License'></a>License
-    This program is covered under a Apache-2.0 license.
+    This program is covered under a MIT license.
     
 
   
 
   ## <a id='Contributing'></a>Contributing
-  Test
+  How to code a little bit and they should be fine.
   
 
   ## <a id='Tests'></a>Tests
@@ -40,7 +40,7 @@
   If you have any questions please check out my GitHub page: [www.github.com/kjphelps90](https://www.github.com/kjphelps90)
   
 
-If you have any other questions please reach out to me at: [kphelps08@gmail.com](mailto:kphelps08@gmail.com)
+If you have any other questions please reach out to me at: [kjphelps90@gmail.com](mailto:kjphelps90@gmail.com)
   
   
 
