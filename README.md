@@ -1,4 +1,4 @@
-# test <a href=https://opensource.org/licenses/MIT>![ScreenShot](https://img.shields.io/badge/License-MIT-green.svg)</a>
+# Sample Project <a href=https://opensource.org/licenses/Apache-2.0>![ScreenShot](https://img.shields.io/badge/License-Apache-2.0-green.svg)</a>
 
   # Table of Contents
   1. [Description](#Description)
@@ -11,36 +11,36 @@
   
 
   ## <a id='Description'></a>Description
-  test
+  This is a test
   
 
   ## <a id='Installation'></a>Installation
-  test
+  npm install inquirer
   
 
   ## <a id='Usage'></a>Usage
-  test
+  No
   
 
   ## <a id='License'></a>License
-    This program is covered under a MIT license.
+    This program is covered under a Apache-2.0 license.
     
 
   
 
   ## <a id='Contributing'></a>Contributing
-  test
+  Test
   
 
   ## <a id='Tests'></a>Tests
-  test
+  npm test
   
 
   ## <a id='Questions'></a>Questions
-  If you have any questions please check out my GitHub page: [www.github.com/test](https://www.github.com/test)
+  If you have any questions please check out my GitHub page: [www.github.com/kjphelps90](https://www.github.com/kjphelps90)
   
 
-If you have any other questions please reach out to me at: [test](mailto:test)
+If you have any other questions please reach out to me at: [kphelps08@gmail.com](mailto:kphelps08@gmail.com)
   
   
 

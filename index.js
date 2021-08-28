@@ -35,7 +35,7 @@ const promtQuestions = () => {
             type: "list",
             name: "license",
             message: "What type of license does your program require?",
-            choices: ["MIT", "Apache-2.0", "GPL-2.0", "None"]
+            choices: ["MIT", "Apache2.0", "None"]
         },
         {
             type: "input",
